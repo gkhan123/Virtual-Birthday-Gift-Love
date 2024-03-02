@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Birthday Celebration 🎂🎉</title>
+    <style>
+        /* CSS styles for color scheme and layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('khan0.jpg'); /* Set background image */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the background image */
+            color: #0f0f0f; /* Dark gray text */
+        }
+        
+        h1, h2 {
+            position: relative; /* Position relative for animation */
+            display: inline-block; /* Display inline-block for animation */
+        }
+        h1 {
+            color: #ff6600; /* Copperhead headings */
+        }
+        h2 {
+            color: #3e8e41; /* Green headings */
+        }
+        .shining {
+            position: absolute;
+            top: 0;
+            left: 0;
+            color: #FF0000; /* Red shining color */
+            opacity: 0; /* Hidden by default */
+            animation: shine 1s infinite alternate; /* Animation */
+        }
+        @keyframes shine {
+            from {
+                opacity: 0;
+                transform: scale(1);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1.1);
+            }
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0d647; /* Gold container background */
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+        }
+        .gallery {
+            width: 80%; /* Set width to 80% for a slightly smaller image */
+            margin: 0 auto; /* Center-align the image */
+        }
+        .gallery img {
+            max-width: 100%; /* Set maximum width to 100% to maintain aspect ratio */
+            height: auto; /* Automatically adjust height */
+        }
+        .post:nth-child(odd) {
+            background-color: #f1a1a1; /* Moccasin background for odd posts */
+        }
+        .post:nth-child(even) {
+            background-color: #a8f8f8; /* Light blue background for even posts */
+        }
+        .post {
+            padding: 20px; /* Padding for posts */
+            margin-bottom: 20px; /* Margin between posts */
+            border-radius: 5px; /* Rounded corners for posts */
+            box-shadow: 0 0 5px rgba(194, 94, 94, 0.1); /* Shadow effect for posts */
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            color: #b10707; /* Dark magenta footer text */
+        }
+        /* Add more CSS styles as needed */
+    </style>
+</head>
+<body>
+    <script>
+        var password = prompt("Dear Khan, please enter your password to access to this page:");
+        if (password !== "MHK0203") {
+            alert("Incorrect password. Access denied.");
+            window.location.href = "about:blank"; // Redirect to blank page
+        }
+    </script>
+
+    <div class="container">
+        <!-- Header with dynamic name and large picture -->
+        <div style="position: relative; text-align: center;">
+            <img src="khan666.gif" alt="Shining GIF" style="width: 100%;">
+            <h1 id="greeting" style="margin-top: 50px;"></h1>
+            <span class="shining">🎉 Happy Birthday, my love! 🎂🎈❤️</span> <!-- Shining effect for "Happy Birthday" -->
+            <p style="font-size: 18px; color: #ff0000;">Wishing You A Day Filled With Love, Joy, and Unforgettable Moments! ❤️🎈</p>
+        </div>
+        
+        <!--Happy Birth Day -->
+        <a href="#happy_birthday_section">
+            <h2>Happy Birthday My Love 🎂</h2>
+        </a>
+        <div class="post" id="happy_birthday_section">
+            <h2>My Dearest Love,</h2>
+            <p>This day, as we celebrate your birth, my heart swells with joy. It's a day to reflect on the beautiful moments we've shared and to look forward to many more. 🌟</p>
+            <p>Your presence in my life has brought light and warmth to every day. Your laughter, your kindness, and your love have enriched my world in ways I never thought possible. 💖</p>
+            <p>Happy birthday, my love. May this day be as bright and beautiful as you are, and may our love continue to grow stronger with each passing moment. 🎉</p>
+        </div>
+
+        <!-- Picture 1 -->
+        <a href="#picture1_section">
+            <h2>Zama Zara Sar 🌹</h2>
+        </a>
+        <div class="gallery" id="picture1_section">
+            <img src="khan111.jpg" alt="Image 1">
+        </div>
+
+        <!-- ZAMA DA JWAND UMID -->
+        <a href="#Zama_da_jwand_section">
+            <h2> Zama Da Jwand Umid aw Rarna 💕</h2>
+        </a>
+        <div class="post" id="ama_da_jwand_section">
+            <p>Maa lag Zaan Ta Ranizdy Ka. Tol Ghamoona Raana Her Ka. 💞</p>
+            <p>Bas Sta Noom De Rata Yad V. Noor Nomoona Raana Hèr Ka. 🌟</p>
+            <p>Pa Khpal Ishq K Mi Majnun Ka. Nour Ishqoona Raana Hèr Ka. ❤️</p>
+            <p>Maa Da Gul Pa jaba Poye Ka. Nafratoona Raana Her Ka. 🌹</p>
+            <p>N N Pa Tandi Bandi Mi Kh'kul Ka. Azaaboona Raana Hèr Ka. 💔</p>
+            <p>Ma MHK sara pukhla sha, Nor sochoona raana her ka 🎈</p>
+        </div>
+
+         <!-- Picture 2 -->
+         <a href="#picture2_section">
+            <h2>Chi Sok warta Yaw per ogre total dunya te hera shena 🌍</h2>
+        </a>
+        <div class="gallery" id="picture2_section">
+            <img src="khan22.JPG" alt="Image 2">
+        </div>
+
+        <!-- To My Love -->
+        <a href="#to_my_love_section">
+            <h2>To My Dear Khan Saib ❤️</h2>
+        </a>
+        <div class="post" id="to_my_love_section">
+            <h2>To My Beloved Hasnain</h2>
+            <p>You mean everything to me. Nothing in this world could ever tear us apart. 💖</p>
+            <p>No matter what challenges we face, I know we'll overcome them together. 🌟</p>
+            <p>Your presence in my life brings me endless joy and strength. 💪</p>
+            <p>Your love fills my heart with warmth and comfort, reassuring me that we're meant to be. ❤️</p>
+            <p>In your arms, I've found my safe haven, my home. 🏠</p>
+            <p>I promise to love you endlessly, through every trial and triumph. 💕</p>
+            <p>With you by my side, I know we can weather any storm and emerge stronger than ever. 🌈</p>
+            <p>Forever and always, you're the one I'll cherish, today, tomorrow, and for all eternity. 🌹</p>
+        </div>
+        
+        <!-- Picture 3 -->
+        <a href="#picture3_section">
+            <h2>Nisham terwale dunya ke jwand stana baghir 📸</h2>
+        </a>
+        <div class="gallery" id="picture3_section">
+            <img src="khan33.JPG" alt="Image 3">
+        </div>
+
+        <div class="post">
+            <div class="container" style="background-color: #44c1c5;">
+            <h2>Expressing My Love ❤️</h2>
+            <h3>To My Dearest Love,</h3>
+            <p>As I sit here trying to find the perfect words to express the depth of my feelings for you, I realize that no combination of words could ever truly capture the essence of what you mean to me. You are my rock, my anchor, and my guiding light in this chaotic world. 💖</p>
+            <p>From the moment you came into my life, everything changed. You brought with you a sense of warmth and comfort that I had never known before. With your love, you transformed my world into a place filled with endless joy and happiness. 🌟</p>
+            <p>Every day spent by your side is a blessing I cherish with all my heart. Your presence has a way of soothing my soul, calming my fears, and filling my heart with an overwhelming sense of peace. ❤️</p>
+            <p>I love you more than words could ever express. You are the missing piece I never knew I needed, the one who completes me in ways I never thought possible. With you, my life is infinitely better, brighter, and more beautiful. 🌈</p>
+            <p>You are my confidant, my partner in crime, and my best friend. I can't imagine navigating this journey called life without you by my side. You are my home, my safe haven, and my sanctuary. 🏠</p>
+            <p>In your arms, I find solace. In your eyes, I see my future. With you, I am whole. 💕</p>
+            <p>I love you more than anything else in this world, and I thank the stars every day for bringing you into my life. Forever and always, you are the one I'll cherish, today, tomorrow, and for all eternity. 🌹</p>
+            <p>With all my love, 💖</p>
+        </div>
+      
+        <!-- Picture 4 -->
+        <a href="#picture4_section">
+            <h2>Jaanan 😍</h2>
+        </a>
+        <div class="gallery" id="picture4_section">
+            <img src="khan5.jpg" alt="Image 4">
+        </div>
+
+<!-- Picture 5 -->
+<a href="#picture5_section">
+    <h2>Jaanan 😍</h2>
+</a>
+<div class="gallery" id="picture5_section">
+    <img src="khan6.jpg" alt="Image 5">
+</div>
+
+<!-- ZAMA Zargai -->
+<a href="#ZAMA_Zargai_section">
+    <h2>ZAMA Zargai 😊</h2>
+</a>
+<div class="post" id="ZAMA_ZARGAI_section">
+    <h2 style="color: #639701;">Allah de sta da zara har arman pora ke aw da zara de khudai hamesha khoshal sata... darta wayalai nasham toh zama da para sa ye kho kash chi ma tata da khpal zra khowale shwe chi ta wale dai chi toh zama da para sa ye..... Khana chi sona mena zo sat sra kom dona mena ba mor mashom sara ho na kai.... zara me wai chi sta da pra me dese sa wakrai chi tola dunya warta heran pate she..... zaba tar qayamat pore sta intezar kom ka bade jahan nasho no pa hage jan ba sta sham kho dese asna zo ta charta na predam................ za meena na ishq kom sta sra... aw ishq yaw per kige yaw insan sara....  Allah de sta aw zam masle hal ke aw ma de allah sta ke zar tar zar.............................. Love you Khan Saib....................... 😊</h2>
+</div>
+
+<!-- Picture 6 -->
+<a href="#picture6_section">
+    <h2>Love 😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan7.jpg" alt="Image 6">
+</div>
+
+<!-- Picture 7 -->
+<a href="#picture7_section">M
+    <h2> My World 😊</h2>
+</a>
+<div class="gallery" id="picture7_section">
+    <img src="khan9.jpg" alt="Image 7">
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UJoZjKx0SgU?si=HiLzGmsOikgTfui8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+<!-- Picture 8 -->
+<a href="#picture8_section">
+    <h2>Love You 😊</h2>
+</a>
+<div class="gallery" id="picture8_section">
+    <img src="khan99.jpg" alt="Image 8">
+</div>
+
+
+<!-- Picture 9 -->
+<a href="#picture9_section">
+    <h2>Happy Birthday 🎂</h2>
+</a>
+<div class="gallery" id="picture9_section">
+    <img src="khan555.gif" alt="Image 9">
+</div>
+
+<!-- Picture 10 -->
+<a href="#picture6_section">
+    <h2>Charta Nazara Nashe Mashallah 😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan98.jpg" alt="Image 6">
+</div>
+
+<div class="container" style="background-color: #9b6a85;">
+    <h1>Zama Da Jwand Qisa</h1>
+    <p>Umar me bas dagha wo, Che tair pa dagha rang sholo.</p>
+    <p>🕊️ Che khwahish ke, yo arman ke Pa yo shoq, yo intizar ke,</p>
+    <p>🌟 Yo janoon ke, yo Latoon ke Bas pa ta pase janana.</p>
+    <p>Zama Pa khyal ke ta we, Zama pa khob ke ta we.</p>
+    <p>💖 Zama Pa Zra zama zigar zama Ehsas ke ta we.</p>
+    <p>No zaka ma darpase Laare sahra krale, Tyare ra'nra krale, Shpe me saba krale.</p>
+    <p>🌹 Bas pa de Latoon ke gula kala khandalee me dee, kala jaralee me dee,</p>
+    <p>🏠 Da waswaso pa tal ke kala zangalee me dee, Beshumara tarme okhke pa Lapo skalee me dee,</p>
+    <p>Sta pa talash ke jana ma khpal jwandoon obailo, Starge nazar zra ow Zigar me Bailo...</p>
+    <p>Ziarr mazigar skare makham Aw speen sahar me obailo.</p>
+    <p>💕 Kho akhir ome monde Raata muskay shwe, Gula dase khkara shwe Laka che ta hum zama pa tama....</p>
+    <p>🎵 zama pa intizar we, zama Kho ta ta che mai okatal no stargo de swal okro....</p>
+    <p>🌈 Che ae da khaist malooke tar oosa Charta we ta ? Tar osa charta we ta.....tar osa charta we ta ?.</p>
+    <p>🌟 Bia lag herana shole lag parashana shole.... Che da de kago laro na...da de ogdo laro na Sanga ratera shole....</p>
+    <p>🌹 Wai bia de las rakro.... weede rasha zama sang ta gule, Laga da ma sha pa aram sha pa kalara kena,</p>
+    <p>shonde muskai kra gule okhke nore ma sasawa. Za ba wafa darkram Mena ba hum dera dar kram,</p>
+    <p>Guloona sra beshmar storee ba hum der darkrama. Ma we khudai ghanee badshah de Awredonke da har cha de,</p>
+    <p>Ka jwand gore Latoon okra da talash pa jahan okra Wao che Loi Allah Loi darbar de ..darkawe darkawe darkawe.</p>
+    <p>Ma we tanda ma shwa mata Tol ghamona me shoo shata Aus ba tol umar khandegam Nor ba chare na jaregam,</p>
+    <p>Nor ba Chare na jaregam....nor ba chare na jaregam Kho che zan ta me lag pam sho no zama ....da jwand makham wo,</p>
+    <p>Da mastai pa mekada ke khali shawe zama jam wo, Zama starge shwe be noora Shunde yakhe.....</p>
+    <p>Be surura khushale lara panah shwa Da zra khuna me tala shwa.... Wai sang ba ta La darzama .......</p>
+    <p>Aw sang ba sta deedan kauma... Aw sang ba ta mahsoosuma Aw sanga ba ta.....za khapalaoma.</p>
+    <p>💖 Aae zama da stargo tora....</p>
+</div>
+
+<!-- Picture 11 -->
+<a href="#picture6_section">
+    <h2> Enjoy Your Virtual Cake 😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan1922.jpg_large" alt="Image 6">
+</div>
+
+<!-- Picture 12 -->
+<a href="#picture6_section">
+    <h2> Love You💖😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan87.JPG" alt="Image 6">
+</div>
+
+
+<!-- Picture 13-->
+<a href="#picture6_section">
+    <h2> Zar Sham Darna💖😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan02.JPG" alt="Image 6">
+</div>
+
+<!-- Picture 13-->
+<a href="#picture6_section">
+    <h2> khan Saib 💖😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan23.jpg" alt="Image 6">
+</div>
+
+<!-- Picture 13-->
+<a href="#picture6_section">
+    <h2> Tore Jame Der Sara Deere Khwan Kawe💖😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan34.jpg" alt="Image 6">
+</div>
+
+
+<!-- Picture 13-->
+<a href="#picture6_section">
+    <h2> Wishing </h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan666.JPG" alt="Image 6">
+</div>
+
+<!-- Picture 13-->
+<a href="#picture6_section">
+    <h2> Ya Allah No 💖😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan45.jpg" alt="Image 6">
+</div>
+
+<!-- Picture 13-->
+<a href="#picture6_section">
+    <h2> Shartege Da Khob Dake Kho Bya Ho zama Da para Nast Ye Hamesha💖😊</h2>
+</a>
+<div class="gallery" id="picture6_section">
+    <img src="khan89.jpg" alt="Image 6">
+</div>
+
+<!-- Footer -->
+
+
+<footer style="background-color: #343a40; color: white; padding: 20px; text-align: center;">
+
+   
+    <p>Happy Birthday! I hope you like my virtual surprise. 🎉</p>
+
+
+    <p>&copy; 2024 M.Hasnain Khan world</p>
+
+
+</footer>
+
+
+
+    <!-- Script to dynamically insert boyfriend's name -->
+    <script>
+        // Get current date
+        var today = new Date();
+        // Get current hour
+        var hour = today.getHours();
+        // Greet differently based on the time of the day
+        var greeting;
+        if (hour < 12) {
+            greeting = "Good Morning";
+        } else if (hour < 18) {
+            greeting = "Good Afternoon";
+        } else {
+            greeting = "Good Evening";
+        }
+
+        // Replace [Boyfriend's Name] with your boyfriend's name
+        document.getElementById("greeting").innerHTML = greeting + ", Hasnain Khan! 💖";
+    </script>
+</body>
+</html>
